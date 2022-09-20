@@ -9,7 +9,9 @@ const db = require ('./albums')
 app.get('/', (req, res) => {
     let htmlFront = `<body style="background-color: black; color: antiquewhite; font-family: sans-serif;">
     <h1 style=" font-size: 80px; ">DJ Alok</h1>
-    <img src="https://sitecoreaudioprod.umusicpub.com/sitecore_media/70ABBD29-FA2D-4980-90B1-F7CE2E0E0697.jpg" height="500px" >
+    <img src="https://sitecoreaudioprod.umusicpub.com/sitecore_media/70ABBD29-FA2D-4980-90B1-F7CE2E0E0697.jpg" height="400px" width="800px" >
+    <img src="https://i.ytimg.com/vi/amZ-y8mC1OU/maxresdefault.jpg" height="400px">
+<img src="https://www.pichauarena.com.br/wp-content/uploads/2022/08/alok.jpg" height="400px" >  
     <h3 style="font-size: 25px;">Alok Achkar Peres Petrillo is a Brazilian musician, DJ, and record producer. He is known for his single "Hear Me Now". In 2021, Alok was ranked the 4th best DJ in the world by DJ Mag, being the highest position occupied by a Brazilian.</h3>
     <a href= "/albums" ><button style="width: 300px; height: 40px; font-family: sans-serif; font-size: 25px; background-color:antiquewhite ;background-size: cover; color: black; font-style: inherit; border: 4px solid antiquewhite; border-radius: 10px;  margin-top: 20px; "> Albums</button> </a>
     `
